@@ -11,7 +11,7 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	setlocale(LC_ALL, "rus");
-	int arr[size] = { 7, 6, 3, 4, 11, 13, 8, 2 };
+	int arr[size] = { 0, 0, 0, 0, 0, 0, 1, 0 };
 
 	printf("Исходный массив ");
 	for (int i = 0; i < size; i++)
